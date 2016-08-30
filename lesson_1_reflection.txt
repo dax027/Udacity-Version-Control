@@ -1,0 +1,27 @@
+Q: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+A: It returned lines that had been changed.  Combing through the entire file would not have been efficient.  The FC tool allowed a comparison to the last known working version.
+
+Q: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+A: Having instant access to branch points in your development cycle is like having the ability to time-travel. If a developer hits a dead end, he/she can go back to any point in the life of the project and move forward with no cost other than time. 
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+A: A positive aspect of this feature is the customizability of the experience.  The developer chooses a "commit frequency" that makes sense to him/her.  A negative aspect is the lack of standardization.  Working with multiple developers could be problematic if there is no consistency in the version control policies.
+
+Q: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+A: The benefit to saving multiple files is that it frees the developer from having to worry about the extra step of saving each and every inter-related file.  From a web development standpoint, if I change a class name in one file I may have to change it in all of them.  Git's platform would allow all of the changes to be saved in one commit.
+
+Q: How can you use the commands git log and git diff to view the history of files?
+
+A: Git has commands available to view a log of all past commits. The git diff command allows the user to compare commits to see what changes have been made.
+
+Q: How might using version control make you more confident to make changes that could break something?
+
+A: The ability to revert to a previous version painlessly is enough to alleviate any fear of lasting damage.  The fact that changes are enumerated (in a color-coded format, no less) is just icing on the cake.
+
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+
+A: This answer may seem like a cop-out, but "version control".  This was a good course.  
