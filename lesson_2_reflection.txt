@@ -4,7 +4,7 @@ A: Git creates a hidden metadata file that tracks commit histories and other fun
 
 Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-A:
+A: The staging area functions like an artist's pallette (spelling?).  It groups files along the lines of a commit's logical boundaries.  I suspect it helps with resource stewardship and makes the log a bit more readable.  Regardless, it keeps the developer's focus on the files affected by a change.
 
 Q: How can you use the staging area to make sure you have one commit per logical change?
 
