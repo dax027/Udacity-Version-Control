@@ -8,18 +8,20 @@ A: The staging area functions like an artist's pallette (spelling?).  It groups 
 
 Q: How can you use the staging area to make sure you have one commit per logical change?
 
-A:
+A: If you only add the files you need for a logical change, you can't possibly over-commit.  See what I did there?
 
 Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
-A:
+A: Branches are another good way to subdivide logical changes.  If a project begins to fork off in different directions, a branch is a smart way for those paths to be seperate.
 
 Q: How do the diagrams help you visualize the branch structure?
 
-A:
+A: They solidify my understanding.  I had a fairly decent grasp of it beforehand, however.  This course is well done.
 
 Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
-A:
+A: Two branches become one.  Changes (both additions and ommisions) are kept and a new master branch is formed. The diagram shows the history in a graphical version of the log.
 
-Q: What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges manually?
+Q: What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+A: The pros are obvious.  It is a well thought out automation that removes the burden of combing over lines of code to figure out what stays and what goes.  The cons are a lack of control at times, though it seems like Git handles the process pretty well.
