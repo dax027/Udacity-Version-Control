@@ -1,3 +1,7 @@
 Q: When would you want to use a remote repository rather than keeping all your work local?
 
 A: When collaborating with other developers or working from multiple physical data stores, remote repositories make sense.  Who wants to drag their work laptop everywhere they go?
+
+Q: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+A: You may be working on something simultaneously with another developer.  If your code hinges on the snapshot of the project at the time you requested it and the project is changed while the other developer is working, it could lead to a lot of errors and time wasted debugging.
