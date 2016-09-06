@@ -5,3 +5,7 @@ A: When collaborating with other developers or working from multiple physical da
 Q: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 A: You may be working on something simultaneously with another developer.  If your code hinges on the snapshot of the project at the time you requested it and the project is changed while the other developer is working, it could lead to a lot of errors and time wasted debugging.
+
+Q: Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A: Clones are copies of a remote repository on a local box.  Branches are divergent paths on a local repository.  Forks are divergent paths on a remote repository.  Forks make sense for collaboration that will take place in the cloud.  For coding that will be done on my box, cloning and branches would do the trick.
