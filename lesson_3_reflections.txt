@@ -1,0 +1,3 @@
+Q: When would you want to use a remote repository rather than keeping all your work local?
+
+A: When collaborating with other developers or working from multiple physical data stores, remote repositories make sense.  Who wants to drag their work laptop everywhere they go?
